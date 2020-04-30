@@ -1,0 +1,25 @@
+{
+	"name": "pmnjeru/mpesa-encryption",
+	"description": "How to encrypt and encode MPesa credentials",
+	"version": "1.0.0",
+	"type": "project",
+	"keywords": ["mpesa"],
+	"authors": [
+		{
+			"name": "Peter Njeru",
+			"email": "peter@proxyapi.co.ke",
+			"homepage": "https://peternjeru.co.ke"
+		}
+	],
+	"require":
+	{
+		"phpseclib/phpseclib": "2.0.23"
+	},
+	"autoload":
+	{
+		"psr-4":
+		{
+			"App\\": "src/"
+		}
+	}
+}
