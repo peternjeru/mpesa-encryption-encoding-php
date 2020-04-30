@@ -3,9 +3,9 @@ namespace App;
 
 class ApiAuthenticationHeaderEncoding
 {
-    public function getEncoded($consumerKey, $consumeSecret)
+    public function getEncoded($consumerKey, $consumerSecret)
     {
-        $fullString = $consumerKey.":".$consumeSecret;
+        $fullString = $consumerKey.":".$consumerSecret;
         $encoded = base64_encode($fullString);
         return $encoded;
     }
