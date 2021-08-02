@@ -21,7 +21,7 @@ class InitiatorPasswordEncryption
      */
     private function getPublicKey()
     {
-        $certStr = "-----BEGIN CERTIFICATE-----\n".
+        $certStr = "-----BEGIN CERTIFICATE-----\n".     /** DO NOT remove this newline */
             "MIIGgDCCBWigAwIBAgIKMvrulAAAAARG5DANBgkqhkiG9w0BAQsFADBbMRMwEQYK".
             "CZImiZPyLGQBGRYDbmV0MRkwFwYKCZImiZPyLGQBGRYJc2FmYXJpY29tMSkwJwYD".
             "VQQDEyBTYWZhcmljb20gSW50ZXJuYWwgSXNzdWluZyBDQSAwMjAeFw0xNDExMTIw".
@@ -56,7 +56,7 @@ class InitiatorPasswordEncryption
             "9nQqwNUEqrSx29L1ARFdUy7LhN4NV7mEMde3MQybCQgBjjOPcVSVZXnaZIggDYIU".
             "w4THLy9rDmUIasC8GDdRcVM8xDOVQD/Pt5qlx/LSbTNe2fekhTLFIGYXJVz2rcsj".
             "k1BfG7P3pXnsPAzu199UZnqhEF+y/0/nNpf3ftHZjfX6Ws+dQuLoDN6pIl8qmok9".
-            "9E/EAgL1zOIzFvCRYlnjKdnsuqL1sIYFBlv3oxo6W1O+X9IZ\n".
+            "9E/EAgL1zOIzFvCRYlnjKdnsuqL1sIYFBlv3oxo6W1O+X9IZ\n".       /** DO NOT remove this newline */
             "-----END CERTIFICATE-----";
 
         return $certStr;
